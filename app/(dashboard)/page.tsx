@@ -1,9 +1,11 @@
-import { UserButton } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen font-medium text-4xl font-mono">
-      <UserButton/>
+    <div className="font-medium text-4xl font-mono">
+      <Button variant="outline">
+        Dashboard
+      </Button>
     </div>
   );
 }
